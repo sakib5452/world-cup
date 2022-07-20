@@ -1,0 +1,41 @@
+.background{
+    background-color: black;
+    height: 645px;
+    border-radius: 30px;
+    display: flex;
+    }
+    .text{
+        width:68%;
+    }
+    .text > h1{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size:52px;
+        padding-left: 13%;
+        padding-top: 10%;
+       
+    }
+    
+    .text > p{
+        font-family: 'Poppins', sans-serif ;
+        color: white;
+        font-size: 20px;
+        padding-left: 13%;
+    }
+    .button{
+        text-decoration: none;
+        background-color: red;
+        padding:13px 20px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .watch-live{
+        padding-top: 4%;
+        padding-left: 13%;
+    }
+    .img {
+        padding-top:4%;
+        height: 95%;
+        width:118%;
+    }
