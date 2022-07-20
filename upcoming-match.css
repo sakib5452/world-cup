@@ -4,9 +4,7 @@
     border-radius: 30px;
     display: flex;
     }
-    .container{
-        padding-left:4%;
-    }
+   
     .text{
         width:68%;
     }
@@ -40,40 +38,44 @@
     .img {
         padding-top:4%;
         height: 95%;
-        width:118%;
+        width:100%;
     }
     .aside{
-        padding-top:7%;
-        padding-left:5%;
+       padding-top: 7%;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
     }
     .all-button{
         background-color: black;
-        height:250px;
-        padding-left: 3%;
+        height:260px;
         width: 200px;
        border-radius: 20px;
        display:block;
+       padding-left: 3%;
     }
     .upcoming-button{
         text-decoration: none;
         background-color: red;
-        padding:13px 24px;
+        padding:13px 26px;
         color: white;
         border-radius: 5px;
+        font-size:20px ;
     }
     .group-button{
         text-decoration: none;
         background-color:white;
-        padding:13px 47px;
+        padding:13px 55px;
         color: black;
         border-radius: 5px;
+        font-size: 20px;
     }
     .blog-button{
         text-decoration: none;
         background-color: white;
-        padding:13px 65px;
+        padding:13px 75px;
         color: black;
         border-radius: 5px;
+        font-size: 20px;
     }
     .menu{
         padding-top: 22%;
@@ -84,3 +86,179 @@
     .menu2{
         padding-top: 27%;
     }
+    .schedule{
+      display: grid;
+      grid-template-columns: repeat(3, 3fr);  
+      gap: 20px;
+    }
+    .body{
+        border: 2px solid black;
+        width: 340px;
+    }
+    .schedule1{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 5%;
+        padding-left:4%;
+        width:90%;
+    }
+   
+    .argentina{
+        width: 120px;
+        height: 75px;
+       
+    }
+    .brazil{
+        width: 120px;
+        height:75px;
+        
+    }
+    .size{
+        font-size: 35px;
+        padding-left:35% ;
+    }
+   .date{
+    padding-left:22%;
+   }
+   .schedule2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5%;
+    padding-left:4%;
+    width:90%;
+   }
+   .england{
+    width: 120px;
+    height: 75px;
+}
+.france{
+    width: 120px;
+    height:75px;
+}
+   .schedule3{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5%;
+    padding-left:4%;
+    width:90%;
+   }
+   .germany{
+    width: 120px;
+    height: 75px;
+}
+.iran{
+    width: 120px;
+    height:75px;
+}
+   .schedule4{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5%;
+    padding-left:4%;
+    width:90%;
+   }
+   .italy{
+    width: 120px;
+    height: 75px;
+}
+.mexico{
+    width: 120px;
+    height:75px;
+}
+   .schedule5{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5%;
+    padding-left:4%;
+    width:90%;
+   }
+   .poland{
+    width: 120px;
+    height: 75px;
+}
+.portugal{
+    width: 120px;
+    height:75px;
+}
+   .schedule6{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5%;
+    padding-left:4%;
+    width:90%;
+   }
+   .spain{
+    width: 120px;
+    height: 75px;
+}
+.US{
+    width: 120px;
+    height:75px;
+}
+.all{
+    padding-left: 10%;
+}
+.all img{
+    width: 100%;
+}
+.date p{
+    padding-left: 7%;
+}
+nav{
+    background-color: black;
+    height: 300px;
+  
+}
+.goal{
+    font-size: 30px;
+    text-align: center;
+    width: 1000px;
+    color: aliceblue;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+nav ul{
+    display: flex;
+    padding-left: 28%;
+    padding-top: 2%; 
+    
+}
+nav li:hover{
+    background-color: lightgray;
+    padding: 3px 10px ;
+    
+   
+}
+nav li{
+        list-style: none;
+        margin-right: 30px ;
+      
+    }
+nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        
+    }
+    footer{
+        padding-top: 7%;
+    }
+.facebook{
+    color: rgb(10, 135, 244);
+    padding-left:49%;
+}
+.instagram{
+    color:rgb(234, 130, 130);
+   padding-left: 2%;
+}
+.twitter{
+    color: rgb(10, 135, 244);
+    padding-left: 2%;
+}
+.foin i{
+    font-size: 25px;
+}
+.foin{
+    display: flex;
+    padding-top: 1%;
+}
