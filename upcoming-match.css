@@ -4,6 +4,9 @@
     border-radius: 30px;
     display: flex;
     }
+    .container{
+        padding-left:4%;
+    }
     .text{
         width:68%;
     }
@@ -38,4 +41,46 @@
         padding-top:4%;
         height: 95%;
         width:118%;
+    }
+    .aside{
+        padding-top:7%;
+        padding-left:5%;
+    }
+    .all-button{
+        background-color: black;
+        height:250px;
+        padding-left: 3%;
+        width: 200px;
+       border-radius: 20px;
+       display:block;
+    }
+    .upcoming-button{
+        text-decoration: none;
+        background-color: red;
+        padding:13px 24px;
+        color: white;
+        border-radius: 5px;
+    }
+    .group-button{
+        text-decoration: none;
+        background-color:white;
+        padding:13px 47px;
+        color: black;
+        border-radius: 5px;
+    }
+    .blog-button{
+        text-decoration: none;
+        background-color: white;
+        padding:13px 65px;
+        color: black;
+        border-radius: 5px;
+    }
+    .menu{
+        padding-top: 22%;
+    }
+    .menu1{
+        padding-top: 25%;
+    }
+    .menu2{
+        padding-top: 27%;
     }
